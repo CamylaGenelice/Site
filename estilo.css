@@ -1,0 +1,193 @@
+* {
+    padding:0;
+    margin:0;
+   
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* height:; */
+    background: rgb(255, 255, 255) url(../imagens/imagens/bg.png);
+    margin: 15px;
+}
+    
+#container {
+    background: url(../imagens/imagens/bg-container.png)top center repeat-y;
+    margin: 0 auto; /* PARA QUE O CONTAINER FIQUE CENTRALIZADO */
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+        /* -- INICIO DO TOPO--  */ 
+        
+        
+#topo {
+    background:#dbcd87;
+    height:15.4em;   /* PARA NÃO REDUZIR AS IMAGENS totalmente */
+    min-height: 250px;
+    position: relative;
+}
+.link-logo a {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 3;
+    background: url(../imagens/imagens/logo.png) no-repeat;
+    width: 151px; height:66px; 
+    text-indent: -988px;
+}
+
+
+        /* PODERIA USAR O Z-INDEX PARA DAR PREFERENCIA PARA A AREA QUE IRIA EXIBIR PRIMEIRO, MAS COMO TA NA FORMA PADRAO, ONDE O QUE É EXIBIDO PRIMEIRO FICA POR BAIXO */
+#area-logo {
+    position: absolute;
+     background: url(../imagens/imagens/topo-imagem-principal.png) no-repeat;
+     width: 100%;
+     height: 250px;
+     left: 0;
+     top: 0;
+}
+
+#area-menu {
+    position: absolute;
+    width: 450px;
+    height:250px;
+    right: 0;
+    top: 0;
+    background:url(../imagens/imagens/topo-imagem-lateral.png) no-repeat;
+}
+
+#conteudo-menu {
+    margin-left: 90px;
+    margin-right:15px;
+    padding-top: 15px;
+} 
+    /* --FORMTAÇÃO DOS LINKS DOS LOCAIS DO MENU-- */
+.formatting  a{
+    text-align: center;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);  
+}
+.formatting a:hover{
+    color:#576e2d;
+}
+#menu-locais{
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size:1em;
+    color:#8b8448;
+}
+a {
+    text-decoration: none;
+}
+
+#reserva{
+    text-align: center;
+    text-transform: uppercase; /* SERVE PARA DEIXAR A PALAVRA COM LETRAS MAIUSCULAS */
+    background: #a29750;
+    color: #000000;
+    padding: 5px 10px;
+    margin-top: 2px;
+    float:right;
+}
+
+/* --BARRA DE NAVEGAÇÃO VERTICAL-- */
+
+#menu{
+    margin-top:15px;
+
+}
+li a{
+    text-transform:uppercase;
+    font-size: 0.9em;
+    color: #000000;
+    padding:5px;
+    line-height: 30px;
+    
+}
+li a:hover{
+    background-color: aliceblue;
+}
+ul {
+    list-style: none;
+}
+ul#navegacao{
+    float: left;
+}
+.depoimento{
+    width: 226px;
+    height:164px;
+    float:right;
+    
+}
+
+/* AREA DE CONTEUDOS */
+
+#conteudo-principal {
+    background: url(../imagens/imagens/bg-area-principal.png)top left repeat-x;
+    width:50%;
+    float:left;
+    padding:15px 0;
+    
+}
+#conteudo-lateral{
+    background: url(../imagens/imagens/bg-area-lateral.png)top left repeat-x;
+    width:50%;
+    float:right;
+    padding: 20px 0;
+    
+}
+
+
+.conteudos{
+    margin: 0 auto;
+    width:90%;
+    /* background: pink; */
+}
+
+#rodape{
+    clear: both;
+    padding: 16px ;
+    background:whitesmoke url(../imagens/imagens/bg-rodape.png) repeat-x top;
+    color: black;
+}
+
+h2 {
+    color: #000000;
+    padding: 5px 0;
+}
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+    /* FORMATAÇAO DOS LINKS E PARAGRAFOS DA AREA LATERAL */
+#lista {
+    padding: 8px;
+     
+} 
+#lista li, a p {
+    background: url(../imagens/imagens/ornamento.png)no-repeat center right;
+    
+}
+#lista li:hover{
+    background: aliceblue;
+    cursor: pointer;
+}
+.form-group a img {
+    float: left;
+    margin-right: 10px;
+}
+
+.form-group a{
+    font-size: 17px;
+    color:rgb(99, 99, 99);
+}
+
+.form-group p {
+    font-size:1em;
+   
+}
